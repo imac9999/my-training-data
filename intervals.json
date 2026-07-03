@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T16:13:56.722286",
+  "generated_at": "2026-07-03T17:51:01.848946",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -273,6 +273,45 @@
           "zone": 1,
           "training_load": 7.0912695,
           "decoupling": 18.573029
+        }
+      ]
+    },
+    {
+      "activity_id": "i162437181",
+      "date": "2026-07-03",
+      "type": "Ride",
+      "name": "Aachen",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1035,
+          "avg_power": 126,
+          "max_power": 708,
+          "avg_cadence": 76.88916,
+          "zone": 1,
+          "training_load": 11.069096
+        }
+      ]
+    },
+    {
+      "activity_id": "i162437148",
+      "date": "2026-07-03",
+      "type": "Ride",
+      "name": "Aachen",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1528,
+          "avg_power": 77,
+          "max_power": 500,
+          "avg_hr": 126,
+          "max_hr": 148,
+          "avg_cadence": 62.522232,
+          "zone": 1,
+          "training_load": 6.962776,
+          "decoupling": 18.609188
         }
       ]
     }
