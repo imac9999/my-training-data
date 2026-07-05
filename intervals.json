@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T10:10:50.973129",
+  "generated_at": "2026-07-05T11:47:32.846343",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -415,6 +415,70 @@
           "duration_secs": 1603,
           "avg_hr": 93,
           "max_hr": 121,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i162866609",
+      "date": "2026-07-05",
+      "type": "Ride",
+      "name": "Radfahren",
+      "interval_summary": [
+        "1x 5m35s 195w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5822,
+          "avg_power": 117,
+          "max_power": 655,
+          "avg_hr": 111,
+          "max_hr": 142,
+          "avg_cadence": 70.31969,
+          "zone": 1,
+          "training_load": 42.808872,
+          "decoupling": -7.781824
+        },
+        {
+          "type": "WORK",
+          "label": "335s@195w82rpm",
+          "duration_secs": 335,
+          "avg_power": 195,
+          "max_power": 353,
+          "avg_hr": 124,
+          "max_hr": 138,
+          "avg_cadence": 81.62687,
+          "zone": 3,
+          "training_load": 5.623006,
+          "decoupling": 8.021482
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7563,
+          "avg_power": 115,
+          "max_power": 678,
+          "avg_hr": 107,
+          "max_hr": 135,
+          "avg_cadence": 62.363186,
+          "zone": 1,
+          "training_load": 64.98307,
+          "decoupling": -8.193503
+        }
+      ]
+    },
+    {
+      "activity_id": "i162867054",
+      "date": "2026-07-05",
+      "type": "VirtualRide",
+      "name": "Rad outdoor",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 13721,
+          "avg_hr": 110,
+          "max_hr": 110,
           "zone": 1
         }
       ]
