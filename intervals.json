@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T11:47:32.846343",
+  "generated_at": "2026-07-05T13:27:42.279420",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -480,6 +480,54 @@
           "avg_hr": 110,
           "max_hr": 110,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i162906020",
+      "date": "2026-07-05",
+      "type": "Ride",
+      "name": "Aachen / Eupen",
+      "interval_summary": [
+        "1x 5m35s 195w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5821,
+          "avg_power": 117,
+          "max_power": 655,
+          "avg_hr": 111,
+          "max_hr": 142,
+          "avg_cadence": 77.514015,
+          "zone": 1,
+          "training_load": 43.099636,
+          "decoupling": -7.797656
+        },
+        {
+          "type": "WORK",
+          "label": "335s@195w82rpm",
+          "duration_secs": 335,
+          "avg_power": 195,
+          "max_power": 353,
+          "avg_hr": 124,
+          "max_hr": 138,
+          "avg_cadence": 81.62687,
+          "zone": 3,
+          "training_load": 5.623006,
+          "decoupling": 8.021482
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7564,
+          "avg_power": 115,
+          "max_power": 678,
+          "avg_hr": 107,
+          "max_hr": 135,
+          "avg_cadence": 75.10263,
+          "zone": 1,
+          "training_load": 65.89152,
+          "decoupling": -8.3944025
         }
       ]
     }
