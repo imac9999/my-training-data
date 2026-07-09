@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:14:40.084874",
+  "generated_at": "2026-07-09T15:48:13.077025",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -697,6 +697,56 @@
           "zone": 1,
           "training_load": 10.269714,
           "decoupling": 15.5892725
+        }
+      ]
+    },
+    {
+      "activity_id": "i164177108",
+      "date": "2026-07-09",
+      "type": "VirtualRun",
+      "name": "Lauf",
+      "interval_summary": [
+        "1x 10m7s 135bpm",
+        "1x 25m53s 135bpm",
+        "1x 5m21s 128bpm",
+        "1x 5m20s 114bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "607s@135bpm78rpm",
+          "duration_secs": 607,
+          "avg_hr": 135,
+          "max_hr": 170,
+          "avg_cadence": 77.63149,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1553s@135bpm78rpm",
+          "duration_secs": 1553,
+          "avg_hr": 135,
+          "max_hr": 147,
+          "avg_cadence": 78.04223,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "321s@128bpm68rpm",
+          "duration_secs": 321,
+          "avg_hr": 128,
+          "max_hr": 143,
+          "avg_cadence": 67.825806,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "320s@114bpm55rpm",
+          "duration_secs": 320,
+          "avg_hr": 114,
+          "max_hr": 147,
+          "avg_cadence": 54.56579,
+          "zone": 1
         }
       ]
     }
