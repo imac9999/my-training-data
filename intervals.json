@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T11:18:27.220972",
+  "generated_at": "2026-07-11T12:12:28.729784",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -746,6 +746,25 @@
           "avg_hr": 114,
           "max_hr": 147,
           "avg_cadence": 54.56579,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i164717574",
+      "date": "2026-07-11",
+      "type": "Swim",
+      "name": "Beckenschwimmen",
+      "interval_summary": [
+        "1x 260m 6:52"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1070s@102bpm",
+          "duration_secs": 1070,
+          "avg_hr": 102,
+          "max_hr": 141,
           "zone": 1
         }
       ]
