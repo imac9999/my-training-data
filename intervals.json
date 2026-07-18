@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:57:04.168633",
+  "generated_at": "2026-07-18T19:09:29.134371",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1805,6 +1805,27 @@
           "zone": 1,
           "training_load": 8.8636675,
           "decoupling": -59.461037
+        }
+      ]
+    },
+    {
+      "activity_id": "i166950818",
+      "date": "2026-07-18",
+      "type": "Ride",
+      "name": "ANDERE",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 18752,
+          "avg_power": 73,
+          "max_power": 621,
+          "avg_hr": 85,
+          "max_hr": 113,
+          "avg_cadence": 40.71079,
+          "zone": 1,
+          "training_load": 47.61905,
+          "decoupling": -3.2567475
         }
       ]
     }
