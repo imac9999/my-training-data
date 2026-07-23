@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T07:18:34.392674",
+  "generated_at": "2026-07-23T09:56:51.724722",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -3300,6 +3300,89 @@
           "zone": 2,
           "training_load": 6.003406,
           "decoupling": -7.505423
+        }
+      ]
+    },
+    {
+      "activity_id": "i168359367",
+      "date": "2026-07-23",
+      "type": "Run",
+      "name": "Aachen",
+      "interval_summary": [
+        "4x 5m48s 138bpm",
+        "2x 6m32s 118bpm",
+        "1x 2m40s 129bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "348s@138bpm78rpm",
+          "duration_secs": 366,
+          "avg_hr": 148,
+          "max_hr": 162,
+          "avg_cadence": 76.29781,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "348s@138bpm78rpm",
+          "duration_secs": 325,
+          "avg_hr": 133,
+          "max_hr": 143,
+          "avg_cadence": 79.28,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "348s@138bpm78rpm",
+          "duration_secs": 349,
+          "avg_hr": 132,
+          "max_hr": 143,
+          "avg_cadence": 77.29227,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "348s@138bpm78rpm",
+          "duration_secs": 351,
+          "avg_hr": 139,
+          "max_hr": 147,
+          "avg_cadence": 77.64103,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "392s@118bpm74rpm",
+          "duration_secs": 393,
+          "avg_hr": 122,
+          "max_hr": 141,
+          "avg_cadence": 72.12977,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "392s@118bpm74rpm",
+          "duration_secs": 390,
+          "avg_hr": 113,
+          "max_hr": 126,
+          "avg_cadence": 75.04615,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "160s@129bpm79rpm",
+          "duration_secs": 160,
+          "avg_hr": 129,
+          "max_hr": 138,
+          "avg_cadence": 78.85443,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 130,
+          "max_hr": 131,
+          "zone": 1
         }
       ]
     }
