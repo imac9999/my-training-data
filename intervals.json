@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T09:10:44.373279",
+  "generated_at": "2026-07-29T11:33:52.527019",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2904,6 +2904,22 @@
           "zone": 2,
           "training_load": 1.799566,
           "decoupling": -0.73722786
+        }
+      ]
+    },
+    {
+      "activity_id": "i170379658",
+      "date": "2026-07-29",
+      "type": "Run",
+      "name": "Recon",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3698,
+          "avg_hr": 139,
+          "max_hr": 171,
+          "zone": 1
         }
       ]
     }
