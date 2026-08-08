@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:58:18.811969",
+  "generated_at": "2026-08-08T18:47:52.253608",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1620,6 +1620,96 @@
           "zone": 2,
           "training_load": 3.5829587,
           "decoupling": -22.772867
+        }
+      ]
+    },
+    {
+      "activity_id": "i173832298",
+      "date": "2026-08-08",
+      "type": "Run",
+      "name": "Xterra Ardennes 2026 Trail",
+      "interval_summary": [
+        "8x 6m3s 157bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 332,
+          "avg_hr": 158,
+          "max_hr": 167,
+          "avg_cadence": 80.783134,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 361,
+          "avg_hr": 157,
+          "max_hr": 167,
+          "avg_cadence": 80.98338,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 406,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "avg_cadence": 78.65455,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 362,
+          "avg_hr": 156,
+          "max_hr": 165,
+          "avg_cadence": 78.46133,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 423,
+          "avg_hr": 154,
+          "max_hr": 164,
+          "avg_cadence": 72.61229,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 371,
+          "avg_hr": 155,
+          "max_hr": 164,
+          "avg_cadence": 79.46089,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 342,
+          "avg_hr": 153,
+          "max_hr": 163,
+          "avg_cadence": 80.307014,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm79rpm",
+          "duration_secs": 305,
+          "avg_hr": 162,
+          "max_hr": 174,
+          "avg_cadence": 79.611115,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 54,
+          "avg_hr": 125,
+          "max_hr": 143,
+          "zone": 1
         }
       ]
     }
