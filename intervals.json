@@ -1,28 +1,10 @@
 {
-  "generated_at": "2026-08-16T23:57:39.268466",
+  "generated_at": "2026-08-17T01:37:15.630026",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i171698845",
-      "date": "2026-08-02",
-      "type": "Ride",
-      "name": "Aachen / Raeren",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 7010,
-          "avg_power": 83,
-          "max_power": 634,
-          "avg_cadence": 67.98116,
-          "zone": 1,
-          "training_load": 31.12
-        }
-      ]
-    },
     {
       "activity_id": "i172384943",
       "date": "2026-08-04",
