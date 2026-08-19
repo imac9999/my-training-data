@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:52:54.124891",
+  "generated_at": "2026-08-19T18:32:14.042562",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1993,6 +1993,54 @@
           "avg_hr": 100,
           "max_hr": 115,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i177677413",
+      "date": "2026-08-19",
+      "type": "VirtualRide",
+      "name": "Virtuelles Radfahren",
+      "interval_summary": [
+        "1x 69s 282w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2373,
+          "avg_power": 178,
+          "max_power": 799,
+          "avg_hr": 115,
+          "max_hr": 140,
+          "avg_cadence": 82.793846,
+          "zone": 2,
+          "training_load": 33.37275,
+          "decoupling": -0.5185187
+        },
+        {
+          "type": "WORK",
+          "label": "69s@282w99rpm",
+          "duration_secs": 69,
+          "avg_power": 282,
+          "max_power": 365,
+          "avg_hr": 140,
+          "max_hr": 152,
+          "avg_cadence": 99.478264,
+          "zone": 5,
+          "training_load": 2.1912377,
+          "decoupling": 4.52988
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1174,
+          "avg_power": 177,
+          "max_power": 534,
+          "avg_hr": 126,
+          "max_hr": 152,
+          "avg_cadence": 82.52226,
+          "zone": 2,
+          "training_load": 17.217592,
+          "decoupling": -5.1872416
         }
       ]
     }
