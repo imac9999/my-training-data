@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:16:09.219517",
+  "generated_at": "2026-09-13T14:58:00.173445",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1194,6 +1194,36 @@
           "zone": 1,
           "training_load": 28.504707,
           "decoupling": -44.83154
+        }
+      ]
+    },
+    {
+      "activity_id": "i186261468",
+      "date": "2026-09-13",
+      "type": "Run",
+      "name": "Laufen 2 (L\u00e4ngerer Z2-Lauf)",
+      "interval_summary": [
+        "1x 1h16m 122bpm",
+        "1x 2m48s 115bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4568s@122bpm77rpm",
+          "duration_secs": 4568,
+          "avg_hr": 122,
+          "max_hr": 141,
+          "avg_cadence": 76.954704,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "168s@115bpm70rpm",
+          "duration_secs": 168,
+          "avg_hr": 115,
+          "max_hr": 127,
+          "avg_cadence": 70.46667,
+          "zone": 1
         }
       ]
     }
