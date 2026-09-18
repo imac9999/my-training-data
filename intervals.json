@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T04:59:36.255285",
+  "generated_at": "2026-09-18T09:35:51.046477",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1522,6 +1522,24 @@
           "max_hr": 147,
           "avg_cadence": 71.5,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i187857982",
+      "date": "2026-09-18",
+      "type": "Ride",
+      "name": "Rad 1",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3088,
+          "avg_power": 109,
+          "max_power": 606,
+          "avg_cadence": 72.23977,
+          "zone": 1,
+          "training_load": 24.06324
         }
       ]
     }
