@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:49:55.466142",
+  "generated_at": "2026-09-20T15:28:00.647429",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1934,6 +1934,27 @@
           "zone": 1,
           "training_load": 55.795685,
           "decoupling": -4.554062
+        }
+      ]
+    },
+    {
+      "activity_id": "i188513065",
+      "date": "2026-09-20",
+      "type": "VirtualRide",
+      "name": "Rad 2 (Grundlagenfahrt)",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7487,
+          "avg_power": 157,
+          "max_power": 312,
+          "avg_hr": 109,
+          "max_hr": 125,
+          "avg_cadence": 80.590614,
+          "zone": 2,
+          "training_load": 75.78172,
+          "decoupling": 1.8401388
         }
       ]
     }
