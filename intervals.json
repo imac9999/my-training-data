@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:55:16.103026",
+  "generated_at": "2026-10-02T13:33:40.686572",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1586,6 +1586,32 @@
           "zone": 2,
           "training_load": 36.29,
           "decoupling": 4.887565
+        }
+      ]
+    },
+    {
+      "activity_id": "i192524121",
+      "date": "2026-10-02",
+      "type": "Ride",
+      "name": "Aachen",
+      "interval_summary": [
+        "1x 14m57s 99bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "897s@99bpm",
+          "duration_secs": 897,
+          "avg_hr": 99,
+          "max_hr": 112,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 408,
+          "avg_hr": 94,
+          "max_hr": 107,
+          "zone": 1
         }
       ]
     }
