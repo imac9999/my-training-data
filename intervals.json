@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T07:46:38.488162",
+  "generated_at": "2026-10-04T13:41:07.378673",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1401,6 +1401,54 @@
           "avg_hr": 138,
           "max_hr": 139,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i193367043",
+      "date": "2026-10-04",
+      "type": "Ride",
+      "name": "Rad 2 (Grundlagenfahrt)",
+      "interval_summary": [
+        "1x 10s 534w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 11128,
+          "avg_power": 143,
+          "max_power": 872,
+          "avg_hr": 113,
+          "max_hr": 135,
+          "avg_cadence": 83.94,
+          "zone": 1,
+          "training_load": 111.82117,
+          "decoupling": 0.12485194
+        },
+        {
+          "type": "WORK",
+          "label": "10s@534w100rpm",
+          "duration_secs": 10,
+          "avg_power": 534,
+          "max_power": 728,
+          "avg_hr": 122,
+          "max_hr": 128,
+          "avg_cadence": 99.7,
+          "zone": 7,
+          "training_load": 0.15147929,
+          "decoupling": 35.60709
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 46,
+          "avg_power": 42,
+          "max_power": 475,
+          "avg_hr": 124,
+          "max_hr": 138,
+          "avg_cadence": 54.785713,
+          "zone": 1,
+          "training_load": 0.95644313,
+          "decoupling": 88.15292
         }
       ]
     }
