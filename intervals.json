@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:17:07.403964",
+  "generated_at": "2026-10-07T16:46:22.291125",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1442,6 +1442,132 @@
           "duration_secs": 9,
           "avg_hr": 127,
           "max_hr": 128,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i194622030",
+      "date": "2026-10-07",
+      "type": "Run",
+      "name": "Grundlagenlauf (Deload)",
+      "interval_summary": [
+        "7x 5m31s 138bpm",
+        "1x 82s 140bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 324,
+          "avg_hr": 129,
+          "max_hr": 143,
+          "avg_cadence": 80.169754,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 313,
+          "avg_hr": 135,
+          "max_hr": 142,
+          "avg_cadence": 79.19808,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 330,
+          "avg_hr": 143,
+          "max_hr": 152,
+          "avg_cadence": 78.278786,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 332,
+          "avg_hr": 142,
+          "max_hr": 150,
+          "avg_cadence": 78.798195,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 335,
+          "avg_hr": 139,
+          "max_hr": 152,
+          "avg_cadence": 76.01266,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 20,
+          "avg_hr": 129,
+          "max_hr": 133,
+          "avg_cadence": 78.65,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 354,
+          "avg_hr": 145,
+          "max_hr": 153,
+          "avg_cadence": 75.48305,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@138bpm78rpm",
+          "duration_secs": 332,
+          "avg_hr": 136,
+          "max_hr": 146,
+          "avg_cadence": 78.063255,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "82s@140bpm81rpm",
+          "duration_secs": 82,
+          "avg_hr": 140,
+          "max_hr": 146,
+          "avg_cadence": 80.52439,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3,
+          "avg_hr": 138,
+          "max_hr": 139,
+          "avg_cadence": 74.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i194622024",
+      "date": "2026-10-07",
+      "type": "Ride",
+      "name": "Aachen",
+      "interval_summary": [
+        "1x 14m20s 97bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "860s@97bpm",
+          "duration_secs": 860,
+          "avg_hr": 97,
+          "max_hr": 109,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 591,
+          "avg_hr": 92,
+          "max_hr": 113,
           "zone": 1
         }
       ]
