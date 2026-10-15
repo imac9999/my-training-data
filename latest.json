@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-15T10:18:34.756910",
+    "last_updated": "2026-10-15T15:12:12.104698",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -635,14 +635,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.39,
+          "planned_tss_delta": 0.86,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 59,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.44,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 1.41,
+          "plan_coverage_current_week": 0.56,
+          "plan_coverage_next_week": 0.89
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -675,13 +675,13 @@
     "p_max": 1096,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-15T10:18:34.755600",
+    "calculation_timestamp": "2026-10-15T15:12:12.103392",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
       "activities_7d": 1,
       "activities_28d": 33,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 29
@@ -4072,9 +4072,126 @@
       "description": "WeightTraining: Workout B (Hintere Kette - Langhantel)\nWarm-up: 10 Min Mobility.\nPause: 2-3 Min.\n- 3x 6 reps Rum\u00e4nisches Kreuzheben (Langhantel, strikt gerader R\u00fccken)\n- 3x 8 reps Reverse Lunges pro Bein (Kurzhanteln, 2x 22,5 kg)\n- 3x 10 reps Single-Leg Glute Bridge pro Bein\n- 3x 12 reps Pallof Press pro Seite (B\u00e4nder)"
     },
     {
+      "id": 144830865,
+      "date": "2026-10-15",
+      "name": "Z1 Recovery Spin",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 17,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: Beine locker durchbewegen. Keine Spitzen.\n- 40m 50% Power"
+    },
+    {
       "id": 143308122,
       "date": "2026-10-16",
-      "name": "Ausdauer (Reduziert)",
+      "name": "Ausdauer (Return to Play)",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 22,
+      "duration_hours": 0.45,
+      "duration_formatted": "26m50s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: Ganz locker durchs Wasser gleiten. Den Rhythmus finden, keine harten Antritte.\n- 400mtr Z1 hr\n- 800mtr Z2 hr \n- 200mtr Z1 hr"
+    },
+    {
+      "id": 143308189,
+      "date": "2026-10-17",
+      "name": "Z2-Lauf (Reduziert)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 29,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: Wir kappen den Lauf von 75 auf 45 Minuten. Absolut flache Strecke w\u00e4hlen. Pulsgrenze strikt beachten!\n- 45m 70-79% HR"
+    },
+    {
+      "id": 143308224,
+      "date": "2026-10-18",
+      "name": "Z2-Ausfahrt (Reduziert)",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 63,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: KICKR oder drau\u00dfen (wenn das Wetter mild ist, bitte gut einpacken!). Wir k\u00fcrzen von 120 auf 90 Minuten.\n- 90m 60-70% Power"
+    },
+    {
+      "id": 144833703,
+      "date": "2026-10-20",
+      "name": "Gym - Workout A (Quads & Stabi - Langhantel)",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warm-up: 10 Min Mobility.\nPause: 2-3 Min. Fokus auf saubere Tiefe bei der Langhantel.\n- 3x 6 reps Kniebeuge (Langhantel)\n- 3x 8 reps Bulgarian Split Squats pro Bein (Kurzhanteln, 2x 22,5 kg)\n- 3x 10 reps Wadenheben stehend pro Bein (Kurzhantel)\n- 3x 10 reps Dead Bugs pro Seite (Matte)"
+    },
+    {
+      "id": 144833704,
+      "date": "2026-10-20",
+      "name": "Technik & Wasserlage",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 18,
+      "duration_hours": 0.39,
+      "duration_formatted": "23m6s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- 400mtr Z1 hr\n\n12x\n- 50mtr Z2 hr\n\n- 200mtr Z1 hr"
+    },
+    {
+      "id": 144833705,
+      "date": "2026-10-21",
+      "name": "Grundlagenlauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 35,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: Lockere Pace, saubere Technik. H\u00fcftbeuger im Blick behalten.\n- 55m 70-79% HR"
+    },
+    {
+      "id": 144833706,
+      "date": "2026-10-21",
+      "name": "Z2 Ausdauer",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 42,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Fokus: Lockeres Kurbeln auf dem KICKR.\n- 60m 60-70% Power"
+    },
+    {
+      "id": 144833707,
+      "date": "2026-10-22",
+      "name": "Gym - Workout B (Hintere Kette - Langhantel)",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warm-up: 10 Min Mobility.\nPause: 2-3 Min. R\u00fccken strikt gerade bei den RDLs.\n- 3x 6 reps Rum\u00e4nisches Kreuzheben (Langhantel)\n- 3x 8 reps Reverse Lunges pro Bein (Kurzhanteln, 2x 22,5 kg)\n- 3x 10 reps Single-Leg Glute Bridge pro Bein\n- 3x 12 reps Pallof Press pro Seite (B\u00e4nder)"
+    },
+    {
+      "id": 144833709,
+      "date": "2026-10-23",
+      "name": "Ausdauer",
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 29,
@@ -4082,25 +4199,25 @@
       "duration_formatted": "34m30s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 400mtr Z1 hr\n- 1200mtr Z2 hr\n- 200mtr Z1 hr"
+      "description_preview": "- 400mtr Z1 hr\n- 1200mtr Z2 hr\n- 200mtr Z1 hr"
     },
     {
-      "id": 143308189,
-      "date": "2026-10-17",
-      "name": "Langer Z2-Lauf (Deload)",
+      "id": 144833711,
+      "date": "2026-10-24",
+      "name": "Langer Z2-Lauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 47,
+      "planned_tss": 48,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Distanz wieder hochfahren. Komplett flache Strecke w\u00e4hlen, stur in der Zone 2 bleiben.\n- 75m 70-79% HR"
+      "description_preview": "Fokus: Distanz wieder auf regul\u00e4res Niveau bringen. Komplett flache Strecke.\n- 75m 70-79% HR"
     },
     {
-      "id": 143308224,
-      "date": "2026-10-18",
-      "name": "Z2-Ausfahrt (Deload)",
+      "id": 144833713,
+      "date": "2026-10-25",
+      "name": "Lange Z2-Ausfahrt",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 85,
@@ -4108,7 +4225,7 @@
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Grundlagenausdauer. Ob auf dem KICKR oder drau\u00dfen auf dem Nuroad \u2013 versuche, die Leistung konstant auf dem Pedal zu halten.\n- 120m 60-70% Power"
+      "description_preview": "Fokus: Grundlagenausdauer auf dem KICKR oder drau\u00dfen. Konstante Leistung auf dem Pedal.\n- 120m 60-70% Power"
     },
     {
       "id": 136895712,
@@ -4190,12 +4307,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 10,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 5,
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 0.86,
