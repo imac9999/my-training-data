@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:12:12.099746",
+  "generated_at": "2026-10-15T19:09:52.562662",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -710,6 +710,27 @@
           "max_hr": 157,
           "avg_cadence": 80.54015,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i197664519",
+      "date": "2026-10-15",
+      "type": "VirtualRide",
+      "name": "Z1 Recovery Spin",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2434,
+          "avg_power": 128,
+          "max_power": 165,
+          "avg_hr": 96,
+          "max_hr": 107,
+          "avg_cadence": 78.24748,
+          "zone": 1,
+          "training_load": 16.397566,
+          "decoupling": 3.5163205
         }
       ]
     }

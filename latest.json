@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 0.86,
-      "total_training_formatted": "51m",
-      "total_activities": 1,
-      "total_tss": 34
+      "total_training_hours": 1.53,
+      "total_training_formatted": "1h31m",
+      "total_activities": 2,
+      "total_tss": 50
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-15T15:12:12.104698",
+    "last_updated": "2026-10-15T19:09:53.497404",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -134,7 +134,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.13
+        "value": 0.18
       },
       "ri": {
         "status": "unavailable",
@@ -143,7 +143,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 18.4
+        "value": 16.6
       }
     },
     "signal_summary": {
@@ -173,8 +173,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 0.86,
-    "total_activities": 1,
+    "total_duration_decimal_hours": 1.53,
+    "total_activities": 2,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 0.86,
@@ -187,16 +187,28 @@
             "unit": "km"
           }
         }
+      },
+      "VirtualRide": {
+        "duration_decimal_hours": 0.67,
+        "count": 1,
+        "tss": 16,
+        "distance_km": 17.3,
+        "display": {
+          "distance": {
+            "value": 17.3,
+            "unit": "km"
+          }
+        }
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.1,
-      "atl": 17.72,
-      "tsb": 18.38,
-      "ramp_rate": -5.71,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 36.47,
+      "atl": 19.85,
+      "tsb": 16.62,
+      "ramp_rate": -5.33,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 274.8,
@@ -240,7 +252,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 89.95009,
+      "weight_kg": 89.95,
       "display": {
         "weight": {
           "value": 90.0,
@@ -281,26 +293,26 @@
     },
     "weight": {
       "weight_latest_kg": 90.0,
-      "weight_latest_date": "2026-10-14",
+      "weight_latest_date": "2026-10-15",
       "wkg_current": 2.89,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-07-20",
       "wkg_block_start": 2.9,
       "wkg_block_end": 2.89,
       "wkg_block_delta": -0.01,
-      "weight_7d_avg_kg": 90.3,
-      "weight_28d_slope_kg_per_week": 0.134,
+      "weight_7d_avg_kg": 90.2,
+      "weight_28d_slope_kg_per_week": 0.147,
       "display": {
         "weight_latest": {
           "value": 90.0,
           "unit": "kg"
         },
         "weight_7d_avg": {
-          "value": 90.3,
+          "value": 90.2,
           "unit": "kg"
         },
         "weight_28d_slope_per_week": {
-          "value": 0.134,
+          "value": 0.147,
           "unit": "kg/week"
         }
       }
@@ -315,27 +327,27 @@
     "rhr_baseline_28d": 50.8,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.13,
+    "acwr": 0.18,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.38,
+    "monotony": 0.54,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 34.0,
-    "effective_monotony": 0.38,
-    "multi_sport_detected": false,
-    "strain": 13.0,
-    "stress_tolerance": 0.3,
+    "effective_monotony": 0.54,
+    "multi_sport_detected": true,
+    "strain": 27.0,
+    "stress_tolerance": 0.5,
     "load_recovery_ratio": null,
-    "tss_7d_total": 34.0,
-    "tss_28d_total": 1077.0,
+    "tss_7d_total": 50.0,
+    "tss_28d_total": 1093.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.85,
+      "z1_hours": 1.51,
       "z2_hours": 0.01,
       "z3_hours": 0.0,
       "z4_plus_hours": 0.0,
-      "total_hours": 0.86,
-      "zone_basis": "hr"
+      "total_hours": 1.53,
+      "zone_basis": "mixed"
     },
     "grey_zone_percentage": 0.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
@@ -346,7 +358,7 @@
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 3106,
+      "z1_seconds": 5504,
       "z2_seconds": 0,
       "z3_seconds": 0,
       "z1_pct": 100.0,
@@ -354,7 +366,7 @@
       "z3_pct": 0.0,
       "polarization_index": null,
       "classification": "Base",
-      "zone_basis": "hr"
+      "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
       "z1_seconds": 3106,
@@ -369,12 +381,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 85733,
+      "z1_seconds": 88131,
       "z2_seconds": 4953,
       "z3_seconds": 3073,
-      "z1_pct": 91.4,
-      "z2_pct": 5.3,
-      "z3_pct": 3.3,
+      "z1_pct": 91.7,
+      "z2_pct": 5.2,
+      "z3_pct": 3.2,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -406,9 +418,9 @@
       },
       "efficiency_factor": {
         "mean_ef_7d": null,
-        "mean_ef_28d": 1.43,
-        "qualifying_sessions_7d": 0,
-        "qualifying_sessions_28d": 3,
+        "mean_ef_28d": 1.41,
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 4,
         "trend": null,
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
@@ -608,11 +620,11 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.0,
+    "consistency_index": 0.17,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 0,
-      "matched_days": 0,
+      "completed_days": 1,
+      "matched_days": 1,
       "planned_dates": [
         "2026-10-09",
         "2026-10-10",
@@ -621,7 +633,9 @@
         "2026-10-14",
         "2026-10-15"
       ],
-      "completed_dates": []
+      "completed_dates": [
+        "2026-10-15"
+      ]
     },
     "phase_detection": {
       "phase": "Base",
@@ -675,12 +689,12 @@
     "p_max": 1096,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-15T15:12:12.103392",
+    "calculation_timestamp": "2026-10-15T19:09:53.496092",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
-      "activities_7d": 1,
-      "activities_28d": 33,
+      "activities_7d": 2,
+      "activities_28d": 34,
       "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
@@ -689,6 +703,81 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i197664519",
+      "date": "2026-10-15T17:40:10",
+      "type": "VirtualRide",
+      "name": "Z1 Recovery Spin",
+      "duration_hours": 0.67,
+      "distance_km": 17.34,
+      "tss": 16,
+      "intensity_factor": 49.615383,
+      "avg_power": 127,
+      "normalized_power": 129,
+      "avg_hr": 96,
+      "max_hr": 107,
+      "avg_cadence": 78.24748,
+      "avg_speed": 25.9,
+      "avg_speed_unit": "KPH",
+      "max_speed": 29.8,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": 18.0,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 308.2,
+      "calories": 305,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": 1.015748,
+      "decoupling": 0.7984965,
+      "efficiency_factor": 1.34375,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 17.34,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": {
+          "value": 25.9,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 29.8,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 2417,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 2396,
+          "z2_time": 2,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "i195855086",
       "date": "2026-10-10T12:17:49",
@@ -4016,9 +4105,12 @@
     },
     {
       "date": "2026-10-15",
-      "weight_kg": null,
+      "weight_kg": 89.95,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 90.0,
+          "unit": "kg"
+        }
       },
       "resting_hr": null,
       "hrv_rmssd": null,
@@ -4061,15 +4153,15 @@
     {
       "id": 143308087,
       "date": "2026-10-15",
-      "name": "Gym - Workout B (Hintere Kette - Langhantel)",
+      "name": "AI Coach: Gym - Workout B (Hintere Kette)",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "duration_hours": 0.37,
+      "duration_formatted": "22m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "WeightTraining: Workout B (Hintere Kette - Langhantel)\nWarm-up: 10 Min Mobility.\nPause: 2-3 Min.\n- 3x 6 reps Rum\u00e4nisches Kreuzheben (Langhantel, strikt gerader R\u00fccken)\n- 3x 8 reps Reverse Lunges pro Bein (Kurzhanteln, 2x 22,5 kg)\n- 3x 10 reps Single-Leg Glute Bridge pro Bein\n- 3x 12 reps Pallof Press pro Seite (B\u00e4nder)"
+      "description": "\ud83e\udd16 [AI Coach Check-In | Status: GREEN_OPTIMAL | TSB: 16.6 | HRV-Diff: n/a]\nDeine heutige Readiness ist optimal, daher best\u00e4tigen wir das geplante Krafttraining ohne Anpassungen. Dieses Workout fokussiert auf die hintere Kette und ist entscheidend f\u00fcr deine strukturelle Stabilit\u00e4t und Kraftentwicklung in der aktuellen Off-Season Phase. Eine starke hintere Kette ist die Basis f\u00fcr effizientes Radfahren und Laufen und hilft, Dysbalancen vorzubeugen, die in der Wettkampfphase zu Problemen f\u00fchren k\u00f6nnten. Achte auf saubere Ausf\u00fchrung und die vorgegebenen Pausen.\n\nWarmup\n- 10m Mobility\n\nMain Set\n- Rum\u00e4nisches Kreuzheben (Langhantel): 3 Sets x 6 Reps\n- 3m Rest\n- Reverse Lunges (Kurzhanteln): 3 Sets x 8 Reps pro Bein\n- 3m Rest\n- Single-Leg Glute Bridge: 3 Sets x 10 Reps pro Bein\n- 3m Rest\n- Pallof Press (B\u00e4nder): 3 Sets x 12 Reps pro Seite\n- 3m Rest"
     },
     {
       "id": 144830865,
@@ -4307,18 +4399,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 10,
+    "attempted": 11,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
-    "bail_no_match": 10
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 11
   },
   "weekly_summary": {
-    "total_training_hours": 0.86,
-    "total_training_formatted": "51m",
-    "total_tss": 34,
-    "activities_count": 1,
+    "total_training_hours": 1.53,
+    "total_training_formatted": "1h31m",
+    "total_tss": 50,
+    "activities_count": 2,
     "avg_hrv": null,
     "avg_resting_hr": 52.8
   },
