@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-16T09:48:11.271489",
+    "last_updated": "2026-10-16T14:31:40.550133",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -649,12 +649,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.15,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 2.02,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "current_week_hard_days_total": 1,
           "race_proximity": 58,
-          "next_week_load": 1.24,
+          "next_week_load": 1.54,
           "plan_coverage_current_week": 0.33,
           "plan_coverage_next_week": 1.0
         },
@@ -689,7 +689,7 @@
     "p_max": 1095,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-16T09:48:11.270190",
+    "calculation_timestamp": "2026-10-16T14:31:40.548827",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -3983,12 +3983,12 @@
       "name": "Schwimmen - Aerobe Basis & Technik",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 7,
-      "duration_hours": 0.54,
-      "duration_formatted": "32m7s",
-      "workout_summary": null,
+      "planned_tss": 16,
+      "duration_hours": 0.39,
+      "duration_formatted": "23m40s",
+      "workout_summary": "4m31s | 4\u00d756s / 1m8s rec | 8m27s | 2m26s",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nStart der Woche mit einer Schwimmeinheit zur Reaktivierung und Fokus auf Technik und aerobe Basis, um das Wassergef\u00fchl wiederherzustellen.\n\n- 10m locker einschwimmen\n- 4x\n- - 50mtr Technik (Kraul mit Brett, Faust, Paddles) 20s Pause\n- 200mtr 70% Pace\n- 4x 100mtr 75% Pace 20s\n- 200mtr 70% Pace\n- 10m ausschwimmen"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAufbau der aeroben Kapazit\u00e4t und Schulung der Wasserlage in der Off-Season.\n\n- 200mtr 70% Pace 20s\n\n4x\n- 50mtr 85% Pace 15s\n- 50mtr 70% Pace 15s\n\n- 400mtr 75% Pace 30s\n- 100mtr 65% Pace 15s"
     },
     {
       "id": 143308189,
@@ -3996,12 +3996,12 @@
       "name": "Grundlagenlauf Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 29,
+      "planned_tss": 51,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nEin moderater Grundlagenlauf zur weiteren Entwicklung der aeroben Kapazit\u00e4t und zur Gew\u00f6hnung an die Laufbelastung.\n\n- 10m locker einlaufen\n- 45m 75-80% LTHR\n- 5m auslaufen"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nRuhiger Grundlagenlauf zur F\u00f6rderung der aeroben Ausdauer und orthop\u00e4dischen Anpassung.\n\n- 10m 65% Pace\n- 40m 75% Pace\n- 10m 65% Pace"
     },
     {
       "id": 143308224,
@@ -4009,12 +4009,12 @@
       "name": "Lange Grundlagenfahrt Z2",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 2.25,
-      "duration_formatted": "2h15m",
+      "planned_tss": 87,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nEine l\u00e4ngere Radausfahrt im Grundlagenbereich, um die aerobe Ausdauer auf dem Rad zu st\u00e4rken und die Beine an l\u00e4ngere Belastungen zu gew\u00f6hnen.\n\n- 15m 60%\n- 1h 45m 65-75%\n- 15m 60%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nL\u00e4ngere Ausfahrten im Z2-Bereich zur Entwicklung der Grundlagenausdauer und des Fettstoffwechsels.\n\n- 15m 55-65%\n- 90m 68%\n- 15m 55%"
     },
     {
       "id": 145135549,
@@ -4027,7 +4027,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAktive Erholung zur Regeneration nach den ersten Trainingstagen und Vorbereitung auf die Kraft- und Technik-Einheiten der zweiten Wochenh\u00e4lfte."
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration zur Gewebeheilung und mentalen Frische."
     },
     {
       "id": 144833703,
@@ -4036,11 +4036,11 @@
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 0.38,
-      "duration_formatted": "23m",
+      "duration_hours": 0.35,
+      "duration_formatted": "20m45s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf strukturelle Stabilit\u00e4t und Kraft im Gym (Quads & Stabi) als Basis f\u00fcr die kommende Saison. Optional kann eine kurze Schwimmeinheit (Technik & Wasserlage) erg\u00e4nzt werden, um die Wasserlage zu verbessern.\n\n- 10m Warm-up (Mobility, light cardio)\n\n- 3x\n- - 8x Kniebeugen (Langhantel)\n- - 1m Pause\n- - 10x Ausfallschritte pro Bein (Kurzhantel)\n- - 1m Pause\n- - 12x Plank mit Rotation\n- - 1m Pause\n\n- 10m Cool-down (Stretching)"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAufbau der Bein- und Rumpfkraft zur Verletzungsprophylaxe und Stabilisierung.\n\n- 10m Aufw\u00e4rmen\n- 3x 10 Kniebeugen\n- 3x 12 Ausfallschritte\n- 3x 45s Planks\n- 10m Cool-down"
     },
     {
       "id": 144833704,
@@ -4048,38 +4048,38 @@
       "name": "Technik & Wasserlage",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 1,
-      "duration_hours": 0.42,
-      "duration_formatted": "25m10s",
-      "workout_summary": null,
+      "planned_tss": 5,
+      "duration_hours": 0.68,
+      "duration_formatted": "40m40s",
+      "workout_summary": "10m | 4\u00d758s / 58s rec | 4\u00d72m16s / 58s rec | 10m",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Schwimmtechnik und Wasserlage, um Effizienz zu verbessern und eine solide Basis f\u00fcr zuk\u00fcnftige Intensit\u00e4t zu legen.\n\n- 10m easy warm up\n- 4x\n- 50mtr drill (z.B. Faustschwimmen) 15s\n- 50mtr easy swim\n\n- 4x\n- 100mtr 70% Pace (mit Fokus auf Wasserlage) 20s\n- 50mtr easy\n\n- 10m easy cool down"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Schwimmtechnik und Wasserlage, um Effizienz zu verbessern und eine solide Basis f\u00fcr zuk\u00fcnftige Intensit\u00e4t zu legen.\n\n- 10m easy warm up\n\n4x\n- 50mtr drill (z.B. Faustschwimmen) 15s\n- 50mtr easy swim\n\n\n4x\n- 100mtr 70% Pace (mit Fokus auf Wasserlage) 20s\n- 50mtr easy\n\n- 10m easy cool down"
     },
     {
       "id": 144833705,
       "date": "2026-10-21",
-      "name": "Grundlagenlauf & Z2 Rad",
+      "name": "Grundlagenlauf Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 25,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
+      "planned_tss": 43,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nEin moderater Grundlagenlauf zur weiteren Entwicklung der aeroben Basis. Im Anschluss ist eine Z2 Radausfahrt geplant, um die Ausdauer auf dem Rad zu st\u00e4rken und die Koppelf\u00e4higkeit zu f\u00f6rdern.\n\n- 10m locker einlaufen\n- 40m 75-80% LTHR\n- 5m auslaufen"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Laufeinheit im aeroben Bereich zur Aufrechterhaltung der Lauf\u00f6konomie.\n\n- 10m 65% Pace\n- 35m 75% Pace\n- 5m 60% Pace"
     },
     {
       "id": 144833706,
       "date": "2026-10-21",
-      "name": "Z2 Ausdauer",
+      "name": "Z2 Ausdauer Rad",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 100,
-      "duration_hours": 2.17,
-      "duration_formatted": "2h10m",
+      "planned_tss": 38,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nL\u00e4ngere Radausfahrt im Z2-Bereich, um die aerobe Kapazit\u00e4t weiter auszubauen und die Erm\u00fcdungsresistenz zu erh\u00f6hen.\n\n- 15m 60% warm up\n- 1h 45m 65-75%\n- 10m 50% cool down"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere aerobe Rekomp-/Grundlageneinheit auf der Rolle zur F\u00f6rderung des Blutflusses nach dem Krafttraining.\n\n- 10m 55%\n- 40m 65%\n- 10m 50%"
     },
     {
       "id": 144833707,
@@ -4088,11 +4088,11 @@
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 0.38,
-      "duration_formatted": "23m",
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nZweite Krafteinheit der Woche mit Fokus auf die hintere Kette zur ganzheitlichen St\u00e4rkung und zur Vorbeugung von Dysbalancen.\n\n- 10m Warm-up (Mobility, light cardio)\n\n- 3x\n- - 8x Kreuzheben (Langhantel)\n- - 1m Pause\n- - 12x Glute Bridge (Langhantel optional)\n- - 1m Pause\n- - 10x Rudern vorgebeugt (Kurzhantel)\n- - 1m Pause\n\n- 10m Cool-down (Stretching)"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGezieltes Training der posterioren Kette zur Unterst\u00fctzung der Lauf- und Radbiomechanik.\n\n- 10m Aufw\u00e4rmen\n- 3x 10 Kreuzheben\n- 3x 12 Hip Thrusts\n- 3x 12 Rumpfrotationen\n- 10m Cool-down"
     },
     {
       "id": 144833709,
@@ -4214,11 +4214,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 11,
-    "success": 0,
-    "patternA": 0,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 11
+    "bail_no_match": 9
   },
   "weekly_summary": {
     "total_training_hours": 1.53,
