@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-20T17:54:04.562890",
+    "last_updated": "2026-10-20T21:15:09.042307",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -661,7 +661,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.16,
+          "planned_tss_delta": 1.92,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
@@ -703,7 +703,7 @@
     "p_max": 1091,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-20T17:54:04.561530",
+    "calculation_timestamp": "2026-10-20T21:15:09.041330",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -3681,12 +3681,12 @@
       "name": "Grundlagenlauf Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 47,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 35,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Laufeinheit im reinen aeroben Bereich zur F\u00f6rderung der Lauf\u00f6konomie ohne hohe orthogonale Belastung.\n\n- 10m 75% Pace\n- 30m 82% Pace\n- 5m 70% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Laufeinheit im reinen aeroben Bereich zur F\u00f6rderung der Lauf\u00f6konomie ohne hohe orthogonale Belastung.\n\n- 55m 70-79% HR"
     },
     {
       "id": 144833706,
@@ -3694,12 +3694,12 @@
       "name": "Z2 Ausdauer Rad",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 50,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 42,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKontrollierte Grundlagenausfahrt zur F\u00f6rderung der Fettverbrennung und Kapillarisierung.\n\n- 10m 55-65%\n- 50m 68%\n- 10m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKontrollierte Grundlagenausfahrt zur F\u00f6rderung der Fettverbrennung und Kapillarisierung.\n\n- 60m 60-70%"
     },
     {
       "id": 144833707,
