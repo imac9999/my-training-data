@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-20T02:05:55.417046",
+    "last_updated": "2026-10-20T07:32:25.447959",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,12 +124,12 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 51.6,
+        "baseline_7d": 52,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.19,
         "quality": null
       },
       "acwr": {
@@ -147,10 +147,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Recovery",
@@ -160,7 +160,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -259,11 +259,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 49,
+      "resting_hr": 54,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.19,
+      "sleep_formatted": "7h11m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -319,9 +319,9 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 51.6,
+    "rhr_baseline_7d": 52,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.2,
+    "rhr_baseline_28d": 51.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.33,
@@ -648,14 +648,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.4,
+          "planned_tss_delta": 2.16,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 54,
           "next_week_load": null,
           "plan_coverage_current_week": 1.14,
-          "plan_coverage_next_week": 0.14
+          "plan_coverage_next_week": 0.29
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -690,10 +690,10 @@
     "p_max": 1091,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-20T02:05:55.415711",
+    "calculation_timestamp": "2026-10-20T07:32:25.446886",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 2,
       "activities_28d": 27,
       "planned_workouts_7d": 11,
@@ -3449,16 +3449,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 54,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "hrv_sdnn": 53.0,
       "sleep_hours": 7.38,
       "sleep_formatted": "7h22m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": 49.0,
-      "vo2max": null,
+      "vo2max": 59.01,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -3466,16 +3466,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.69231,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.427083,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 8030,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3494,12 +3494,12 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.19,
+      "sleep_formatted": "7h11m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
-      "avg_sleeping_hr": null,
+      "avg_sleeping_hr": 48.0,
       "vo2max": null,
       "fatigue": null,
       "soreness": null,
@@ -3548,12 +3548,12 @@
       "name": "Technik & Wasserlage",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 5,
-      "duration_hours": 0.68,
-      "duration_formatted": "40m40s",
-      "workout_summary": "10m | 4\u00d758s / 58s rec | 4\u00d72m16s / 58s rec | 10m",
+      "planned_tss": 17,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m54s",
+      "workout_summary": "4m31s | 4\u00d753s / 1m13s rec | 8m7s | 4m52s",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Schwimmtechnik und Wasserlage, um Effizienz zu verbessern und eine solide Basis f\u00fcr zuk\u00fcnftige Intensit\u00e4t zu legen.\n\n- 10m easy warm up\n\n4x\n- 50mtr drill (z.B. Faustschwimmen) 15s\n- 50mtr easy swim\n\n\n4x\n- 100mtr 70% Pace (mit Fokus auf Wasserlage) 20s\n- 50mtr easy\n\n- 10m easy cool down"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nSchwerpunkt auf Wassergef\u00fchl und Rumpfstabilit\u00e4t im Wasser ohne gro\u00dfe muskul\u00e4re Erm\u00fcdung.\n\n- 200mtr 70% Pace 30s\n\n4x\n- 50mtr 90% Pace 20s\n- 50mtr 65% Pace 15s\n\n- 400mtr 78% Pace 30s\n- 200mtr 65% Pace 30s"
     },
     {
       "id": 144833705,
@@ -3574,12 +3574,12 @@
       "name": "Z2 Ausdauer Rad",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 38,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 50,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere aerobe Rekomp-/Grundlageneinheit auf der Rolle zur F\u00f6rderung des Blutflusses nach dem Krafttraining.\n\n- 10m 55%\n- 40m 65%\n- 10m 50%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKontrollierte Grundlagenausfahrt zur F\u00f6rderung der Fettverbrennung und Kapillarisierung.\n\n- 10m 55-65%\n- 50m 68%\n- 10m 55%"
     },
     {
       "id": 144833707,
@@ -3588,11 +3588,11 @@
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": 5,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nSt\u00e4rkung der posterior chain (Hamstrings, Ges\u00e4\u00df) zur Verletzungsprophylaxe und Stabilisierung der Beckenachse.\n\n- 10m 60% HR\n- 40m Strength"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKr\u00e4ftigung der posterioren Kette (Hamstrings, Gluteus, unterer R\u00fccken) zur Verletzungspr\u00e4vention beim Laufen.\n\n- 10m Mobilisation\n- 40m Hauptteil Hintere Kette und Rumpf\n- 10m Cool-down"
     },
     {
       "id": 144833709,
@@ -3600,12 +3600,12 @@
       "name": "Technik & Ausdauer Schwimmen",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 14,
-      "duration_hours": 0.31,
-      "duration_formatted": "18m31s",
+      "planned_tss": 19,
+      "duration_hours": 0.46,
+      "duration_formatted": "27m29s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wasserlage und saubere Zugphase kombiniert mit moderaten Grundlagens\u00e4tzen im Wasser.\n\n- 200mtr 75% Pace 20s\n\n4x\n\n- 100mtr 85% Pace 15s\n\n- 400mtr 80% Pace 30s\n- 200mtr 70% Pace 20s"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerobes Grundlagenschwimmen mit langen Intervallen zur Festigung des Bewegungsmusters.\n\n- 300mtr 70% Pace 30s\n- 800mtr 80% Pace 45s\n- 200mtr 65% Pace 30s"
     },
     {
       "id": 144833711,
@@ -3613,12 +3613,12 @@
       "name": "Langer Z2-Lauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 73,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 61,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerober Schl\u00fcssellauf der Woche im kontrollierten Z2-Bereich zur Festigung der Sehnentoleranz und Ausdauer.\n\n- 10m 75% Pace\n- 50m 82% Pace\n- 10m 70% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nL\u00e4ngerer Lauf im aeroben Bereich zur Entwicklung der orthop\u00e4dischen Toleranz und Grundlagenausdauer.\n\n- 10m 72% Pace\n- 45m 80% Pace\n- 5m 70% Pace"
     },
     {
       "id": 144833713,
@@ -3626,12 +3626,25 @@
       "name": "Lange Z2-Ausfahrt",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 85,
+      "planned_tss": 86,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "Fokus: Grundlagenausdauer auf dem KICKR oder drau\u00dfen. Konstante Leistung auf dem Pedal.\n- 120m 60-70% Power"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nWochenend-Grundlageneinheit auf dem Rad zur St\u00e4rkung der aeroben Kapazit\u00e4t.\n\n- 15m 58%\n- 90m 68%\n- 15m 55%"
+    },
+    {
+      "id": 146389616,
+      "date": "2026-10-26",
+      "name": "Ruhetag",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration zur Adaptation der Wochenbelastung und Vorbereitung auf den n\u00e4chsten Trainingsblock."
     },
     {
       "id": 136895712,
@@ -3717,7 +3730,7 @@
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 7
   },
   "weekly_summary": {
@@ -3726,7 +3739,7 @@
     "total_tss": 71,
     "activities_count": 2,
     "avg_hrv": null,
-    "avg_resting_hr": 51.6
+    "avg_resting_hr": 52.0
   },
   "race_calendar": {
     "next_race": {
