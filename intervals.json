@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:28:40.681703",
+  "generated_at": "2026-10-21T18:50:15.346234",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -555,6 +555,27 @@
           "max_hr": 127,
           "avg_cadence": 38.0,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i200092121",
+      "date": "2026-10-21",
+      "type": "VirtualRide",
+      "name": "Z2 Ausdauer Rad",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3634,
+          "avg_power": 168,
+          "max_power": 206,
+          "avg_hr": 116,
+          "max_hr": 130,
+          "avg_cadence": 88.66252,
+          "zone": 2,
+          "training_load": 42.111008,
+          "decoupling": 6.958394
         }
       ]
     }
