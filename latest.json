@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-23T00:57:28.335399",
+    "last_updated": "2026-10-23T05:50:36.735155",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,12 +124,12 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 53.4,
+        "baseline_7d": 53.3,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 7.86,
         "quality": null
       },
       "acwr": {
@@ -143,14 +143,14 @@
       },
       "tsb": {
         "status": "green",
-        "value": 14.0
+        "value": 14.6
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Recovery",
@@ -160,7 +160,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -217,8 +217,8 @@
   "current_status": {
     "fitness": {
       "ctl": 33.36,
-      "atl": 19.33,
-      "tsb": 14.03,
+      "atl": 18.75,
+      "tsb": 14.61,
       "ramp_rate": -2.26,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
@@ -264,18 +264,18 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 89.55,
+      "weight_kg": 89.75005,
       "display": {
         "weight": {
-          "value": 89.5,
+          "value": 89.8,
           "unit": "kg"
         }
       },
-      "resting_hr": 56,
+      "resting_hr": 53,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.86,
+      "sleep_formatted": "7h51m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -290,7 +290,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -304,22 +304,22 @@
       "readiness": null
     },
     "weight": {
-      "weight_latest_kg": 89.5,
-      "weight_latest_date": "2026-10-20",
-      "wkg_current": 2.91,
+      "weight_latest_kg": 89.8,
+      "weight_latest_date": "2026-10-22",
+      "wkg_current": 2.9,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-07-20",
       "wkg_block_start": 2.87,
       "wkg_block_end": 2.9,
       "wkg_block_delta": 0.03,
-      "weight_28d_slope_kg_per_week": 0.101,
+      "weight_28d_slope_kg_per_week": 0.098,
       "display": {
         "weight_latest": {
-          "value": 89.5,
+          "value": 89.8,
           "unit": "kg"
         },
         "weight_28d_slope_per_week": {
-          "value": 0.101,
+          "value": 0.098,
           "unit": "kg/week"
         }
       }
@@ -329,9 +329,9 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53.4,
+    "rhr_baseline_7d": 53.3,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 51.5,
+    "rhr_baseline_28d": 51.6,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.77,
@@ -529,32 +529,32 @@
           "start": "2026-09-12",
           "end": "2026-10-23"
         },
-        "weight_kg": 89.5,
+        "weight_kg": 89.8,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 233,
-              "actual_wpkg": 2.6,
+              "actual_wpkg": 2.59,
               "actual_hr": 145,
               "pct_lthr": 84.3,
               "source": "observed_outdoor",
               "coggan_watts": 276,
-              "coggan_wpkg": 3.08,
+              "coggan_wpkg": 3.07,
               "cp_model_watts": 338,
-              "cp_model_wpkg": 3.78,
+              "cp_model_wpkg": 3.76,
               "model_divergence_pct": -31.1
             },
             "600s": {
               "actual_watts": 186,
-              "actual_wpkg": 2.08,
+              "actual_wpkg": 2.07,
               "actual_hr": 140,
               "pct_lthr": 81.4,
               "source": "observed_outdoor",
               "coggan_watts": 252,
-              "coggan_wpkg": 2.82,
+              "coggan_wpkg": 2.81,
               "cp_model_watts": 299,
-              "cp_model_wpkg": 3.34,
+              "cp_model_wpkg": 3.33,
               "model_divergence_pct": -37.8
             },
             "1200s": {
@@ -564,45 +564,45 @@
               "pct_lthr": 77.9,
               "source": "observed_outdoor",
               "coggan_watts": 242,
-              "coggan_wpkg": 2.7,
+              "coggan_wpkg": 2.69,
               "cp_model_watts": 280,
-              "cp_model_wpkg": 3.13,
+              "cp_model_wpkg": 3.12,
               "model_divergence_pct": -35.4
             },
             "1800s": {
               "actual_watts": 175,
-              "actual_wpkg": 1.96,
+              "actual_wpkg": 1.95,
               "actual_hr": 129,
               "pct_lthr": 75.0,
               "source": "observed_outdoor",
               "coggan_watts": 234,
               "coggan_wpkg": 2.61,
               "cp_model_watts": 273,
-              "cp_model_wpkg": 3.05,
+              "cp_model_wpkg": 3.04,
               "model_divergence_pct": -35.9
             },
             "3600s": {
               "actual_watts": 168,
-              "actual_wpkg": 1.88,
+              "actual_wpkg": 1.87,
               "actual_hr": 124,
               "pct_lthr": 72.1,
               "source": "observed_outdoor",
               "coggan_watts": 224,
-              "coggan_wpkg": 2.5,
+              "coggan_wpkg": 2.49,
               "cp_model_watts": 267,
-              "cp_model_wpkg": 2.98,
+              "cp_model_wpkg": 2.97,
               "model_divergence_pct": -37.1
             },
             "5400s": {
               "actual_watts": 160,
-              "actual_wpkg": 1.79,
+              "actual_wpkg": 1.78,
               "actual_hr": 121,
               "pct_lthr": 70.3,
               "source": "observed_outdoor",
               "coggan_watts": 213,
-              "coggan_wpkg": 2.38,
+              "coggan_wpkg": 2.37,
               "cp_model_watts": 264,
-              "cp_model_wpkg": 2.95,
+              "cp_model_wpkg": 2.94,
               "model_divergence_pct": -39.4
             },
             "7200s": {
@@ -612,9 +612,9 @@
               "pct_lthr": 66.3,
               "source": "observed_outdoor",
               "coggan_watts": 203,
-              "coggan_wpkg": 2.27,
+              "coggan_wpkg": 2.26,
               "cp_model_watts": 263,
-              "cp_model_wpkg": 2.94,
+              "cp_model_wpkg": 2.93,
               "model_divergence_pct": -41.1
             }
           },
@@ -661,13 +661,13 @@
         },
         "stream_2": {
           "planned_tss_delta": 2.64,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "current_week_hard_days_total": 1,
           "race_proximity": 51,
-          "next_week_load": null,
+          "next_week_load": 0.91,
           "plan_coverage_current_week": 0.43,
-          "plan_coverage_next_week": 0.57
+          "plan_coverage_next_week": 0.71
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -702,10 +702,10 @@
     "p_max": 1088,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-23T00:57:28.334078",
+    "calculation_timestamp": "2026-10-23T05:50:36.733795",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 27,
       "planned_workouts_7d": 10,
@@ -3394,13 +3394,16 @@
     },
     {
       "date": "2026-10-22",
-      "weight_kg": null,
+      "weight_kg": 89.75005,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 89.8,
+          "unit": "kg"
+        }
       },
-      "resting_hr": null,
+      "resting_hr": 53,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "hrv_sdnn": 56.0,
       "sleep_hours": 7.2,
       "sleep_formatted": "7h11m",
       "sleep_quality": null,
@@ -3415,21 +3418,21 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 97.4,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
+      "respiration": 14.5,
+      "body_fat_pct": 19.3,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 5223,
       "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
+      "kcal_consumed": 2070,
+      "carbohydrates_g": 240.14369,
+      "protein_g": 138.11975,
+      "fat_g": 59.30145,
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
@@ -3443,8 +3446,8 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 7.86,
+      "sleep_formatted": "7h51m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -3463,7 +3466,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3484,12 +3487,12 @@
       "name": "Technik & Ausdauer Schwimmen",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 12,
-      "duration_hours": 0.39,
-      "duration_formatted": "23m21s",
-      "workout_summary": null,
+      "planned_tss": 17,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m45s",
+      "workout_summary": "4m31s | 4\u00d756s / 1m8s rec | 8m27s | 4m31s",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nSchwimmeinheit mit Fokus auf Wasserlage, Technik\u00fcbungen und grundlegende Aerobic-Kondition.\n\n- 200mtr 60% Pace\n- 400mtr 70% Pace\n\n4x\n- 50mtr 85% Pace 15s\n\n- 200mtr 60% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wassergef\u00fchl, Technik und leichte aerobe Serie.\n\n- 200mtr 70% Pace 20s\n\n4x\n- 50mtr 85% Pace 15s\n- 50mtr 70% Pace 15s\n\n- 400mtr 75% Pace 30s\n- 200mtr 70% Pace 20s"
     },
     {
       "id": 144833711,
@@ -3502,7 +3505,7 @@
       "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLanger, ruhiger Grundlagenlauf zur Entwicklung der Grundlagenausdauer.\n\n- 10m 70% Pace\n- 50m 78% Pace\n- 10m 68% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLanger Grundlagenlauf zur F\u00f6rderung der orthop\u00e4dischen Anpassung und Fettverbrennung.\n\n- 10m 70% Pace\n- 50m 78% Pace\n- 10m 68% Pace"
     },
     {
       "id": 144833713,
@@ -3510,12 +3513,12 @@
       "name": "Lange Z2-Ausfahrt",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 87,
+      "planned_tss": 85,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAusgedehnte Ausdauerfahrt auf dem Rad zur Optimierung des Fettstoffwechsels.\n\n- 15m 55-65%\n- 90m 68%\n- 15m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGrundlagenausdauer auf dem Rad zur Entwicklung des aeroben Stoffwechsels.\n\n- 15m 55%\n- 90m 68%\n- 15m 55%"
     },
     {
       "id": 146389616,
@@ -3528,7 +3531,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration nach dem umfangreichen Ausdauerwochenende."
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration zur Verarbeitung der Wochenendbelastung."
     },
     {
       "id": 147027810,
@@ -3541,7 +3544,7 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nRumpf- und Oberk\u00f6rperkr\u00e4ftigung zur Unterst\u00fctzung einer stabilen Aerosition.\n\n- 10m Mobilisation\n- 40m Krafttraining Oberk\u00f6rper & Core\n- 10m Stretching"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGezieltes Krafttraining zur Verletzungsprophylaxe und Rumpfstabilit\u00e4t.\n\n- 10m 50%\n- 40m 70%\n- 10m 50%"
     },
     {
       "id": 147027812,
@@ -3549,12 +3552,25 @@
       "name": "Z2 Ausdauer Grundlagenfahrt",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 42,
+      "planned_tss": 44,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Grundlagen-Indoor-Ride zur F\u00f6rderung der aktiven Erholung und Frequenzschulung.\n\n- 10m 55-65%\n- 40m 68%\n- 10m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKompakte Ergometereinheit im Grundlagenbereich zur aktiven Erholung und Frequenzschulung.\n\n- 10m 55-65%\n- 40m 70%\n- 10m 55%"
+    },
+    {
+      "id": 147328755,
+      "date": "2026-10-29",
+      "name": "Grundlagenlauf mit Steigerungen",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 53,
+      "duration_hours": 0.96,
+      "duration_formatted": "57m30s",
+      "workout_summary": "10m | 30m | 5\u00d730s / 1m rec | 10m",
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Laufeinheit mit kurzen Steigerungen zur Aktivierung der Neuromuskulatur.\n\n- 10m 70% Pace\n- 30m 78% Pace\n\n5x\n- 30s 95% Pace\n- 1m 65% Pace\n\n- 10m 68% Pace"
     },
     {
       "id": 136895712,
@@ -3636,12 +3652,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 6,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 3.98,
@@ -3649,7 +3665,7 @@
     "total_tss": 148,
     "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 53.4
+    "avg_resting_hr": 53.3
   },
   "race_calendar": {
     "next_race": {
