@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T01:07:06.087443",
+    "last_updated": "2026-10-24T05:52:34.067443",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -665,9 +665,9 @@
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": 50,
-          "next_week_load": 0.58,
+          "next_week_load": 0.59,
           "plan_coverage_current_week": 0.29,
-          "plan_coverage_next_week": 0.71
+          "plan_coverage_next_week": 0.86
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -702,7 +702,7 @@
     "p_max": 1086,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-24T01:07:06.086074",
+    "calculation_timestamp": "2026-10-24T05:52:34.066479",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -3380,12 +3380,12 @@
       "name": "Langer Z2-Lauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 66,
+      "planned_tss": 61,
       "duration_hours": 1.17,
       "duration_formatted": "1h10m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLanger Grundlagenlauf zur F\u00f6rderung der orthop\u00e4dischen Anpassung und Fettverbrennung.\n\n- 10m 70% Pace\n- 50m 78% Pace\n- 10m 68% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLanger Grundlagenlauf zur F\u00f6rderung der aeroben Kapazit\u00e4t und der Sehnengewebe-Anpassung in der Off-Season.\n\n- 10m 65% Pace\n- 50m 75% Pace\n- 10m 65% Pace"
     },
     {
       "id": 144833713,
@@ -3398,7 +3398,7 @@
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGrundlagenausdauer auf dem Rad zur Entwicklung des aeroben Stoffwechsels.\n\n- 15m 55%\n- 90m 68%\n- 15m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGrundlagenausdauer auf dem Rad zur Entwicklung der Fettverbrennung ohne \u00fcberm\u00e4\u00dfige zentrale Erm\u00fcdung.\n\n- 15m 55%\n- 90m 68%\n- 15m 55%"
     },
     {
       "id": 146389616,
@@ -3411,7 +3411,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration zur Verarbeitung der Wochenendbelastung."
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration nach dem ausdauerbetonten Wochenende zur Vermeidung von \u00dcberlastung."
     },
     {
       "id": 147027810,
@@ -3424,7 +3424,7 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGezieltes Krafttraining zur Verletzungsprophylaxe und Rumpfstabilit\u00e4t.\n\n- 10m 50%\n- 40m 70%\n- 10m 50%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nSt\u00e4rkung der Rumpfstabilit\u00e4t und Oberk\u00f6rpermuskulatur f\u00fcr eine verbesserte Haltung auf dem Rad und beim Laufen.\n\n- 10m Mobilisation\n- 45m Ganzk\u00f6rper Kraft & Stabilit\u00e4t\n- 5m Cool Down"
     },
     {
       "id": 147027812,
@@ -3432,12 +3432,12 @@
       "name": "Z2 Ausdauer Grundlagenfahrt",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 44,
+      "planned_tss": 45,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKompakte Ergometereinheit im Grundlagenbereich zur aktiven Erholung und Frequenzschulung.\n\n- 10m 55-65%\n- 40m 70%\n- 10m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Grundlagenreiz auf der Rolle zur Aufrechterhaltung der Kapillarisierung.\n\n- 10m 55%\n- 45m 70%\n- 5m 50%"
     },
     {
       "id": 147328755,
@@ -3445,12 +3445,25 @@
       "name": "Grundlagenlauf mit Steigerungen",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 53,
+      "planned_tss": 48,
       "duration_hours": 0.96,
       "duration_formatted": "57m30s",
       "workout_summary": "10m | 30m | 5\u00d730s / 1m rec | 10m",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Laufeinheit mit kurzen Steigerungen zur Aktivierung der Neuromuskulatur.\n\n- 10m 70% Pace\n- 30m 78% Pace\n\n5x\n- 30s 95% Pace\n- 1m 65% Pace\n\n- 10m 68% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKurzer Z2-Lauf kombiniert mit neuro-muskul\u00e4ren Steigerungen zur Aufrechterhaltung der Schrittfrequenz und Lauf\u00f6konomie.\n\n- 10m 65% Pace\n- 30m 75% Pace\n\n5x\n- 30s 95% Pace\n- 1m 60% Pace\n\n- 10m 65% Pace"
+    },
+    {
+      "id": 147622262,
+      "date": "2026-10-30",
+      "name": "Technik & Grundlagenschwimmen",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 9,
+      "duration_hours": 0.32,
+      "duration_formatted": "19m1s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wasserlage und saubere Bewegungsausf\u00fchrung zum Abschluss der Trainingswoche.\n\n- 200mtr 60% Pace 20s\n- 400mtr 75% Pace 30s\n- 200mtr 60% Pace 20s"
     },
     {
       "id": 136895712,
@@ -3532,12 +3545,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 2.64,
