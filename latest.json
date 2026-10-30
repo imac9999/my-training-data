@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-30T01:14:11.173393",
+    "last_updated": "2026-10-30T07:13:20.992784",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -118,8 +118,8 @@
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 8.35,
         "quality": null
       },
       "acwr": {
@@ -133,14 +133,14 @@
       },
       "tsb": {
         "status": "green",
-        "value": 13.0
+        "value": 17.9
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Recovery",
@@ -150,7 +150,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -206,10 +206,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 30.88,
-      "atl": 17.88,
-      "tsb": 13.0,
-      "ramp_rate": -2.48,
+      "ctl": 29.66,
+      "atl": 11.76,
+      "tsb": 17.9,
+      "ramp_rate": -3.69,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -254,18 +254,18 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 90.2,
+      "weight_kg": 90.55,
       "display": {
         "weight": {
-          "value": 90.2,
+          "value": 90.5,
           "unit": "kg"
         }
       },
-      "resting_hr": 54,
+      "resting_hr": 52,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.35,
+      "sleep_formatted": "8h21m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -280,7 +280,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.1,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -294,22 +294,22 @@
       "readiness": null
     },
     "weight": {
-      "weight_latest_kg": 90.2,
-      "weight_latest_date": "2026-10-28",
-      "wkg_current": 2.88,
+      "weight_latest_kg": 90.5,
+      "weight_latest_date": "2026-10-29",
+      "wkg_current": 2.87,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-07-20",
       "wkg_block_start": 2.91,
-      "wkg_block_end": 2.88,
-      "wkg_block_delta": -0.03,
-      "weight_28d_slope_kg_per_week": 0.144,
+      "wkg_block_end": 2.87,
+      "wkg_block_delta": -0.04,
+      "weight_28d_slope_kg_per_week": 0.193,
       "display": {
         "weight_latest": {
-          "value": 90.2,
+          "value": 90.5,
           "unit": "kg"
         },
         "weight_28d_slope_per_week": {
-          "value": 0.144,
+          "value": 0.193,
           "unit": "kg/week"
         }
       }
@@ -519,20 +519,20 @@
           "start": "2026-09-19",
           "end": "2026-10-30"
         },
-        "weight_kg": 90.2,
+        "weight_kg": 90.5,
         "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
               "actual_watts": 233,
-              "actual_wpkg": 2.58,
+              "actual_wpkg": 2.57,
               "actual_hr": 145,
               "pct_lthr": 84.3,
               "source": "observed_outdoor",
               "coggan_watts": 276,
-              "coggan_wpkg": 3.06,
+              "coggan_wpkg": 3.05,
               "cp_model_watts": 338,
-              "cp_model_wpkg": 3.75,
+              "cp_model_wpkg": 3.73,
               "model_divergence_pct": -31.1
             },
             "600s": {
@@ -542,33 +542,33 @@
               "pct_lthr": 81.4,
               "source": "observed_outdoor",
               "coggan_watts": 252,
-              "coggan_wpkg": 2.79,
+              "coggan_wpkg": 2.78,
               "cp_model_watts": 299,
-              "cp_model_wpkg": 3.31,
+              "cp_model_wpkg": 3.3,
               "model_divergence_pct": -37.8
             },
             "1200s": {
               "actual_watts": 181,
-              "actual_wpkg": 2.01,
+              "actual_wpkg": 2.0,
               "actual_hr": 134,
               "pct_lthr": 77.9,
               "source": "observed_outdoor",
               "coggan_watts": 242,
-              "coggan_wpkg": 2.68,
+              "coggan_wpkg": 2.67,
               "cp_model_watts": 279,
-              "cp_model_wpkg": 3.09,
+              "cp_model_wpkg": 3.08,
               "model_divergence_pct": -35.1
             },
             "1800s": {
               "actual_watts": 175,
-              "actual_wpkg": 1.94,
+              "actual_wpkg": 1.93,
               "actual_hr": 129,
               "pct_lthr": 75.0,
               "source": "observed_outdoor",
               "coggan_watts": 234,
               "coggan_wpkg": 2.59,
               "cp_model_watts": 273,
-              "cp_model_wpkg": 3.03,
+              "cp_model_wpkg": 3.02,
               "model_divergence_pct": -35.9
             },
             "3600s": {
@@ -580,7 +580,7 @@
               "coggan_watts": 224,
               "coggan_wpkg": 2.48,
               "cp_model_watts": 266,
-              "cp_model_wpkg": 2.95,
+              "cp_model_wpkg": 2.94,
               "model_divergence_pct": -36.8
             },
             "5400s": {
@@ -590,21 +590,21 @@
               "pct_lthr": 70.3,
               "source": "observed_outdoor",
               "coggan_watts": 213,
-              "coggan_wpkg": 2.36,
+              "coggan_wpkg": 2.35,
               "cp_model_watts": 264,
-              "cp_model_wpkg": 2.93,
+              "cp_model_wpkg": 2.92,
               "model_divergence_pct": -39.4
             },
             "7200s": {
               "actual_watts": 155,
-              "actual_wpkg": 1.72,
+              "actual_wpkg": 1.71,
               "actual_hr": 114,
               "pct_lthr": 66.3,
               "source": "observed_outdoor",
               "coggan_watts": 203,
-              "coggan_wpkg": 2.25,
+              "coggan_wpkg": 2.24,
               "cp_model_watts": 263,
-              "cp_model_wpkg": 2.92,
+              "cp_model_wpkg": 2.91,
               "model_divergence_pct": -41.1
             }
           },
@@ -650,14 +650,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.97,
+          "planned_tss_delta": 1.73,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 1,
           "race_proximity": 44,
-          "next_week_load": null,
+          "next_week_load": 0.47,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -692,10 +692,10 @@
     "p_max": 1080,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-30T01:14:11.172721",
+    "calculation_timestamp": "2026-10-30T07:13:20.991435",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 23,
       "planned_workouts_7d": 7,
@@ -3136,20 +3136,23 @@
     },
     {
       "date": "2026-10-29",
-      "weight_kg": null,
+      "weight_kg": 90.55,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 90.5,
+          "unit": "kg"
+        }
       },
-      "resting_hr": null,
+      "resting_hr": 52,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "hrv_sdnn": 48.0,
       "sleep_hours": 6.85,
       "sleep_formatted": "6h51m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 58.61,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -3157,16 +3160,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.96154,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
       "respiration": 14.0,
-      "body_fat_pct": null,
+      "body_fat_pct": 19.6,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 9035,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3185,8 +3188,8 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.35,
+      "sleep_formatted": "8h21m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -3205,7 +3208,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.1,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3226,12 +3229,12 @@
       "name": "Technik & Grundlagenschwimmen",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 18,
-      "duration_hours": 0.53,
-      "duration_formatted": "31m45s",
-      "workout_summary": "5m17s | 8m27s | 4\u00d71m52s / 1m19s rec | 5m17s",
+      "planned_tss": 17,
+      "duration_hours": 0.43,
+      "duration_formatted": "25m45s",
+      "workout_summary": "4m31s | 4\u00d756s / 1m8s rec | 8m27s | 4m31s",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wasserlage und sauberen Armzug vor dem Reisetag, moderate Ausdauer im Z2-Bereich.\n\n- 200mtr 60% Pace 20s\n- 400mtr 75% Pace 30s\n\n4x\n- 100mtr 85% Pace 20s\n- 50mtr 60% Pace 15s\n\n- 200mtr 60% Pace 20s"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wasserlage und saubere Technik in der Off-Season vor der Anreise nach \u00c4gypten.\n\n- 200mtr 70% Pace\n\n4x\n- 50mtr 85% Pace 15s\n- 50mtr 70% Pace 15s\n\n- 400mtr 75% Pace 30s\n- 200mtr 70% Pace"
     },
     {
       "id": 147906492,
@@ -3239,12 +3242,12 @@
       "name": "Grundlagenlauf Z2",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 52,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nStetiger Grundlagenausdauerlauf vor dem morgigen Reisetag zur weiteren Festigung der aeroben Basis.\n\n- 10m 72% Pace\n- 40m 80% Pace\n- 10m 70% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nRuhiger Grundlagenlauf im Z2-Bereich zur Festigung der aeroben Ausdauer.\n\n- 10m 70% Pace\n- 35m 80% Pace\n- 10m 65% Pace"
     },
     {
       "id": 136895712,
@@ -3257,7 +3260,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration am Reisetag nach \u00c4gypten zur Vermeidung von Reisestress und Anpassung an das neue Umfeld."
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nReisetag nach \u00c4gypten. Vollst\u00e4ndige Regeneration und Erholung."
     },
     {
       "id": 129781047,
@@ -3266,11 +3269,11 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 14,
-      "duration_hours": 0.37,
-      "duration_formatted": "22m3s",
+      "duration_hours": 0.36,
+      "duration_formatted": "21m42s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Auftakt im Urlaubspool/Freiwasser zur Gew\u00f6hnung an die lokale Umgebung und Mobilisation nach dem Flug.\n\n- 200mtr 65% Pace 30s\n\n6x\n- 100mtr 80% Pace 20s\n\n- 200mtr 60% Pace 30s"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Schwimmeinheit zum Ankommen und zur Gew\u00f6hnung an das lokale Becken bzw. Meer.\n\n- 200mtr 70% Pace\n- 600mtr 75% Pace 30s\n- 200mtr 70% Pace"
     },
     {
       "id": 149131224,
@@ -3278,12 +3281,12 @@
       "name": "Grundlageneinheit Rad",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 41,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerobe Grundlageneinheit auf dem Rad/Ergometer zur Aufrechterhaltung der radspezifischen Z1/Z2-Ausdauer im Urlaub.\n\n- 10m 55%\n- 45m 68%\n- 15m 75%\n- 10m 50%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerobe Grundlageneinheit auf dem Rad zur Aufrechterhaltung der Kurbelfrequenz.\n\n- 10m 55%\n- 40m 68%\n- 10m 50%"
     },
     {
       "id": 149486886,
@@ -3296,7 +3299,20 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGanzk\u00f6rper-Athletikeinheit zur Kr\u00e4ftigung der Rumpfmuskulatur und zur Unterst\u00fctzung der posturalen Stabilit\u00e4t in der Off-Season.\n\n- 45m 60%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFunktionelles Rumpftraining zur F\u00f6rderung der strukturellen Stabilit\u00e4t.\n\n- 45m 60%"
+    },
+    {
+      "id": 149850036,
+      "date": "2026-11-05",
+      "name": "Lockerer Regenerationslauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 33,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nEntspannter Lauf zur F\u00f6rderung der Durchblutung nach der Athletikeinheit.\n\n- 10m 68% Pace\n- 20m 75% Pace\n- 10m 65% Pace"
     },
     {
       "id": 121535245,
@@ -3352,12 +3368,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 2.65,
