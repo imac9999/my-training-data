@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-06T05:10:06.489693",
+    "last_updated": "2026-11-06T12:56:52.410744",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -631,7 +631,7 @@
           "race_proximity": 37,
           "next_week_load": null,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -664,7 +664,7 @@
     "p_max": 1072,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-06T05:10:06.488974",
+    "calculation_timestamp": "2026-11-06T12:56:52.409311",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 6,
@@ -2751,11 +2751,11 @@
       "type": "WORKOUT",
       "sport_type": "Swim",
       "planned_tss": 17,
-      "duration_hours": 0.38,
-      "duration_formatted": "22m32s",
+      "duration_hours": 0.43,
+      "duration_formatted": "26m6s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Wassergef\u00fchl und Entspannung im Becken ohne hohe Intensit\u00e4ten.\n\n- 200mtr 70% Pace 30s\n\n4x\n- 100mtr 85% Pace 20s\n\n- 400mtr 78% Pace 30s\n- 100mtr 65% Pace 30s"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nEinstieg in das Wochenende mit Fokus auf Wassergef\u00fchl und kontinuierlicher Grundlagenausdauer.\n\n- 200mtr 65% Pace 30s\n- 400mtr 75% Pace 30s\n- 400mtr 80% Pace 30s\n- 200mtr 65% Pace 30s"
     },
     {
       "id": 150440237,
@@ -2763,12 +2763,12 @@
       "name": "Grundlagenausdauer Lauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 50,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "planned_tss": 58,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKontrollierter GA1-Lauf zur Anpassung des Sehnen- und Bandapparats.\n\n- 10m 72% Pace\n- 35m 80% Pace\n- 5m 70% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nModerater Grundlagenlauf im Z2-Bereich zur St\u00e4rkung der aeroben Kapazit\u00e4t und Orthop\u00e4die.\n\n- 10m 70% Pace\n- 40m 80% Pace\n- 10m 65% Pace"
     },
     {
       "id": 150907705,
@@ -2781,7 +2781,7 @@
       "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndige Regeneration zur Vermeidung von \u00dcberlastungserscheinungen."
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKompletter Ruhetag zur physischen und mentalen Erholung f\u00fcr die kommende Trainingswoche."
     },
     {
       "id": 151390944,
@@ -2789,12 +2789,12 @@
       "name": "GA1 Rollensession",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 44,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 45,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockere Ausdauereinheit auf der Rolle zur F\u00f6rderung der aeroben Kapazit\u00e4t.\n\n- 10m 55-65%\n- 40m 70%\n- 10m 50%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nStetiges Ausdauertraining auf der Rolle im aeroben GA1-Bereich zur Aktivierung des Fettstoffwechsels.\n\n- 10m 55%\n- 45m 68%\n- 10m 50%"
     },
     {
       "id": 152131276,
@@ -2807,7 +2807,7 @@
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGanzk\u00f6rper-Krafttraining zur St\u00e4rkung der Rumpf- und Beinmuskulatur in der Off-Season.\n\n- 15m Aufw\u00e4rmen und Mobilisation\n- 40m Ganzk\u00f6rper-Krafttraining (Kniebeugen, Rumpfstabilit\u00e4t, Ausfallschritte)\n- 5m Cool-Down"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGanzk\u00f6rper-Krafttraining mit Schwerpunkt Rumpfstabilit\u00e4t und Sehnenanpassung f\u00fcr die Off-Season.\n\n- 10m Aufw\u00e4rmen und Mobilisation\n- 40m Rumpf- und Beinkraft\n- 10m Cool Down"
     },
     {
       "id": 152131270,
@@ -2815,12 +2815,25 @@
       "name": "Kompensationsfahrt GA1",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 38,
+      "planned_tss": 37,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Abschluss des Mikrozyklus auf dem Rad zur Vorbereitung auf die n\u00e4chste Woche.\n\n- 10m 55%\n- 35m 65%\n- 15m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Grundlagenbereich auf dem Rad zur aktiven Regeneration und Ausdauererhaltung.\n\n- 10m 50%\n- 40m 65%\n- 10m 50%"
+    },
+    {
+      "id": 152475764,
+      "date": "2026-11-12",
+      "name": "Technik & GA1 Lauf",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 40,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nKurzer Grundlagenlauf mit fokussierter Lauftechnik f\u00fcr saubere Bewegungsabl\u00e4ufe.\n\n- 10m 70% Pace\n- 25m 78% Pace\n- 10m 65% Pace"
     },
     {
       "id": 121535245,
@@ -2889,12 +2902,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 6,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 0.89,
