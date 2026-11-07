@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T17:26:08.706870",
+  "generated_at": "2026-11-07T21:01:05.917840",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -632,6 +632,80 @@
           "avg_hr": 134,
           "max_hr": 136,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i207086226",
+      "date": "2026-11-07",
+      "type": "Run",
+      "name": "Safaga",
+      "interval_summary": [
+        "5x 5m25s 142bpm",
+        "1x 5s 156bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "325s@142bpm80rpm",
+          "duration_secs": 339,
+          "avg_hr": 127,
+          "max_hr": 143,
+          "avg_cadence": 79.0767,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "325s@142bpm80rpm",
+          "duration_secs": 328,
+          "avg_hr": 143,
+          "max_hr": 151,
+          "avg_cadence": 79.87195,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "325s@142bpm80rpm",
+          "duration_secs": 339,
+          "avg_hr": 139,
+          "max_hr": 148,
+          "avg_cadence": 78.86136,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "325s@142bpm80rpm",
+          "duration_secs": 321,
+          "avg_hr": 145,
+          "max_hr": 155,
+          "avg_cadence": 81.1433,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "325s@142bpm80rpm",
+          "duration_secs": 298,
+          "avg_hr": 154,
+          "max_hr": 161,
+          "avg_cadence": 81.781876,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "5s@156bpm77rpm",
+          "duration_secs": 5,
+          "avg_hr": 156,
+          "max_hr": 157,
+          "avg_cadence": 76.8,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_hr": 157,
+          "max_hr": 157,
+          "avg_cadence": 71.5,
+          "zone": 2
         }
       ]
     }
