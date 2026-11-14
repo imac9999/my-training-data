@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-11-13T23:31:45.237596",
+  "generated_at": "2026-11-14T03:33:54.305894",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i203575160",
-      "date": "2026-10-30",
-      "type": "Ride",
-      "name": "Aachen",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3503,
-          "avg_power": 148,
-          "max_power": 783,
-          "avg_hr": 124,
-          "max_hr": 150,
-          "avg_cadence": 78.62885,
-          "zone": 2,
-          "training_load": 42.624226,
-          "decoupling": 2.9779432
-        }
-      ]
-    },
     {
       "activity_id": "i203917860",
       "date": "2026-10-31",
