@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-16T00:14:20.874773",
+    "last_updated": "2026-11-16T06:40:14.391403",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -124,12 +124,12 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 52.8,
+        "baseline_7d": 53.2,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.79,
         "quality": null
       },
       "acwr": {
@@ -148,9 +148,9 @@
     },
     "signal_summary": {
       "green": 2,
-      "amber": 0,
+      "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Recovery",
@@ -160,7 +160,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -259,11 +259,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 52,
+      "resting_hr": 55,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.79,
+      "sleep_formatted": "6h47m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -278,7 +278,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.9,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -312,9 +312,9 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 52.8,
+    "rhr_baseline_7d": 53.2,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 52.7,
+    "rhr_baseline_28d": 52.8,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.6,
@@ -641,13 +641,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 3.89,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 4.67,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 1,
           "race_proximity": 27,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.8,
+          "plan_coverage_current_week": 2.0,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -683,10 +683,10 @@
     "p_max": 1062,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-16T00:14:20.873489",
+    "calculation_timestamp": "2026-11-16T06:40:14.390134",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 4,
+      "rhr_data_points": 5,
       "activities_7d": 2,
       "activities_28d": 21,
       "planned_workouts_7d": 10,
@@ -2875,16 +2875,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 55,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "hrv_sdnn": 47.0,
       "sleep_hours": 7.71,
       "sleep_formatted": "7h42m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 57.25,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -2892,7 +2892,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.64286,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -2901,7 +2901,7 @@
       "respiration": 13.5,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 14105,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2920,8 +2920,8 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.79,
+      "sleep_formatted": "6h47m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -2940,7 +2940,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.9,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -3001,11 +3001,11 @@
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
       "planned_tss": null,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAktivierung der Rumpf- und Beinmuskulatur zur Pr\u00e4vention von Verletzungen und Aufbau struktureller Stabilit\u00e4t.\n\n- 10m 50% Pace Warm-up\n- 40m Kraft & Athletik\n- 10m Cooldown"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf Rumpfstabilit\u00e4t, H\u00fcftkr\u00e4ftigung und funktionelle Athletik zur Festigung der Basis in der Off-Season.\n\n- 15m 50%\n- 30m 65%"
     },
     {
       "id": 155618920,
@@ -3013,12 +3013,12 @@
       "name": "GA1 Grundlagenlauf",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 51,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m",
+      "planned_tss": 62,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nRuhiger Dauerlauf im aeroben Grundlagentempo zur F\u00f6rderung des Fettstoffwechsels.\n\n- 10m 70% Pace\n- 35m 78% Pace\n- 10m 68% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerob zielgerichteter Grundlagenlauf im niedrigen GA1-Pace-Bereich f\u00fcr Fettstoffwechsel und Sehnengew\u00f6hnung.\n\n- 10m 75% Pace\n- 40m 82% Pace\n- 10m 70% Pace"
     },
     {
       "id": 155618922,
@@ -3026,12 +3026,12 @@
       "name": "Schwimmtechnik & Grundlagenausdauer",
       "type": "WORKOUT",
       "sport_type": "Swim",
-      "planned_tss": 14,
-      "duration_hours": 0.36,
-      "duration_formatted": "21m34s",
+      "planned_tss": 23,
+      "duration_hours": 0.47,
+      "duration_formatted": "28m6s",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nFokus auf saubere Wasserlage und gleichm\u00e4\u00dfigen Armzug im GA1-Bereich.\n\n- 200mtr 70% Pace 20s\n\n4x\n- 50mtr 85% Pace 15s\n\n- 400mtr 75% Pace 30s\n- 200mtr 65% Pace 30s"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nTechnikorientierte Schwimmeinheit mit kurzen GA2-Reizen zur Verbesserung von Wasserlage und Effizienz.\n\n- 200mtr 75% Pace 30s\n\n4x\n- 50mtr 90% Pace 20s\n\n- 800mtr 80% Pace 40s\n- 200mtr 70% Pace 30s"
     },
     {
       "id": 155618921,
@@ -3039,12 +3039,12 @@
       "name": "GA1 Kadenz-Variationen",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 42,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": "10m @143W | 10m @169W | 3\u00d75m @195W / 5m rec | 10m @130W",
+      "planned_tss": 47,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m",
+      "workout_summary": "15m @156W | 3\u00d710m @182W / 2m rec | 10m @130W",
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGrundlagenausdauer auf der Rolle mit Tretfrequenzwechseln zur Schulung der Bewegungseffizienz.\n\n- 10m 55%\n- 10m 65%\n\n3x\n- 5m 75%\n- 5m 65%\n\n- 10m 50%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nGrundlagentraining auf der Rolle mit Trittfrequenzwechseln zur Verbesserung der neuromuskul\u00e4ren Ansteuerung.\n\n- 15m 55-65%\n\n3x\n- 10m 70%\n- 2m 85%\n\n- 10m 50%"
     },
     {
       "id": 155618923,
@@ -3052,12 +3052,12 @@
       "name": "Regenerativer Lauf mit Steigerungen",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 28,
-      "duration_hours": 0.57,
-      "duration_formatted": "34m",
-      "workout_summary": "10m | 15m | 4\u00d715s / 45s rec | 5m",
+      "planned_tss": 33,
+      "duration_hours": 0.61,
+      "duration_formatted": "36m20s",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Dauerlauf mit kurzen Steigerungen zur F\u00f6rderung der neuromuskul\u00e4ren Ansteuerung.\n\n- 10m 68% Pace\n- 15m 72% Pace\n\n4x\n- 15s 95% Pace\n- 45s 65% Pace\n\n- 5m 65% Pace"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nLockerer Aktivierungslauf mit kurzen Steigerungen zur Aufrechterhaltung der Spritzigkeit vor dem langen Radwochenende.\n\n- 10m 70% Pace\n- 20m 75% Pace\n\n4x\n- 20s 105% Pace 40s\n\n- 5m 65% Pace"
     },
     {
       "id": 155991410,
@@ -3065,12 +3065,25 @@
       "name": "Grundlagen-Ausdauerfahrt GA1",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 66,
+      "planned_tss": 63,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nAerober Grundlagenausbau auf dem Rad bei konstanter Belastung im Zone 2 Bereich.\n\n- 15m 55%\n- 60m 70%\n- 15m 55%"
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nL\u00e4ngere aerobe Ausdauerfahrt im GA1-Bereich zum Ausbau der Ausdauerbasis.\n\n- 15m 55-65%\n- 60m 68%\n- 15m 55%"
+    },
+    {
+      "id": 156534529,
+      "date": "2026-11-22",
+      "name": "Ruhetag & Erholung",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "\ud83e\udd16 [AI Coach Wochenplan]\nVollst\u00e4ndiger Ruhetag zur physischen und mentalen Erholung sowie zur Anpassung an die Trainingsreize der Woche."
     },
     {
       "id": 129600719,
@@ -3114,11 +3127,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 6,
-    "success": 2,
-    "patternA": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 4
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 2.11,
@@ -3126,7 +3139,7 @@
     "total_tss": 54,
     "activities_count": 2,
     "avg_hrv": null,
-    "avg_resting_hr": 52.8
+    "avg_resting_hr": 53.2
   },
   "race_calendar": {
     "next_race": {
