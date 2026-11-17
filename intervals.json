@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T08:17:44.663202",
+  "generated_at": "2026-11-17T17:45:14.772994",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -370,6 +370,27 @@
           "max_hr": 138,
           "avg_cadence": 71.6,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i211239319",
+      "date": "2026-11-17",
+      "type": "VirtualRide",
+      "name": "Rad indoor",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3606,
+          "avg_power": 156,
+          "max_power": 213,
+          "avg_hr": 114,
+          "max_hr": 129,
+          "avg_cadence": 83.86119,
+          "zone": 2,
+          "training_load": 36.980286,
+          "decoupling": 3.4927
         }
       ]
     }
