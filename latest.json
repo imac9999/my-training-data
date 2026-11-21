@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-21T00:40:25.898031",
+    "last_updated": "2026-11-21T07:42:53.020725",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,12 +133,12 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 53,
+        "baseline_7d": 52.8,
         "delta_bpm": null
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.98,
         "quality": null
       },
       "acwr": {
@@ -153,9 +153,9 @@
     },
     "signal_summary": {
       "green": 0,
-      "amber": 0,
+      "amber": 1,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Recovery",
@@ -276,11 +276,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 53,
+      "resting_hr": 52,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.98,
+      "sleep_formatted": "6h58m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -295,7 +295,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -326,7 +326,7 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 53,
+    "rhr_baseline_7d": 52.8,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 52.7,
     "latest_hrv": null,
@@ -656,12 +656,12 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 0,
+          "current_week_hard_days_total": 1,
           "race_proximity": 22,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
@@ -697,13 +697,13 @@
     "p_max": 1057,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-21T00:40:25.896758",
+    "calculation_timestamp": "2026-11-21T07:42:53.019527",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 20,
-      "planned_workouts_7d": 10,
+      "planned_workouts_7d": 11,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 29
@@ -2694,16 +2694,16 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 52,
       "hrv_rmssd": null,
-      "hrv_sdnn": null,
+      "hrv_sdnn": 54.0,
       "sleep_hours": 7.54,
       "sleep_formatted": "7h32m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 57.33,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -2711,7 +2711,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.31579,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -2720,7 +2720,7 @@
       "respiration": 14.3,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 11014,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2739,8 +2739,8 @@
       "resting_hr": null,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.98,
+      "sleep_formatted": "6h58m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -2759,7 +2759,7 @@
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 13.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
       "steps": null,
@@ -2786,6 +2786,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "\ud83e\udd16 [AI Coach Wochenplan]\nL\u00e4ngere Aerobfahrt auf der Rolle zur Stabilisierung der Ausdauerkapazit\u00e4t.\n\n- 15m 55-65%\n- 60m 70%\n- 15m 55%"
+    },
+    {
+      "id": 158605082,
+      "date": "2026-11-21",
+      "name": "20-Minuten-Express-Workout",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 12,
+      "duration_hours": 0.27,
+      "duration_formatted": "16m",
+      "workout_summary": "4m32s | 4\u00d753s / 15s rec | 4\u00d750s / 20s rec | 2m16s",
+      "has_terrain": false,
+      "description": "Swim: 20-Minuten-Express-Workout (ohne Paddles)\nFokus: Zeitoptimiertes Schwimmtraining mit Fokus auf Pace und Technik.\n\nWarm-up\n- 200mtr Z1 pace\n\nTechnik & Intensit\u00e4t\n4x\n- 50mtr 1:45/100m pace\n- 15s rest\n\nVO2 Max (ohne Paddles - hoher Zugdruck)\n4x\n- 50mtr 1:40/100m pace\n- 20s rest\n\nCool-down\n- 100mtr Z1 pace"
     },
     {
       "id": 156534529,
@@ -2841,9 +2854,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 2,
     "bail_no_match": 2
@@ -2854,7 +2867,7 @@
     "total_tss": 153,
     "activities_count": 6,
     "avg_hrv": null,
-    "avg_resting_hr": 53.0
+    "avg_resting_hr": 52.8
   },
   "race_calendar": {
     "next_race": {
